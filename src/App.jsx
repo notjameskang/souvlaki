@@ -6,10 +6,11 @@ import './App.css'
 function App() {
   return (
     <>
+     <>
       {/* Navbar */}
-      <nav className="navbar" style={{ backgroundColor: '#e3f2fd', padding: '1rem' }}>
-        <h1 style={{ fontFamily: 'Georgia, serif' }}>Souvlaki</h1>
-        <ul style={{ display: 'flex', justifyContent: 'space-around', listStyle: 'none', padding: 0 }}>
+      <nav className="navbar">
+        <h1 className="logo">Souvlaki</h1>
+        <ul className="nav-links">
           <li><a href="#">Menu</a></li>
           <li><a href="#">Reviews</a></li>
           <li><a href="#">Contact Us</a></li>
@@ -18,18 +19,16 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section style={{ padding: '4rem', textAlign: 'center', backgroundColor: '#f8f9fa' }}>
+      <section className="hero">
         <h2>Welcome to Souvlaki!</h2>
         <p>Your favorite place for authentic Greek cuisine.</p>
-        <button style={{ padding: '0.75rem 2rem', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-          View Menu
-        </button>
+        <button className="menu-btn">View Menu</button>
       </section>
 
       {/* Featured Menu Section */}
-      <section style={{ padding: '4rem', backgroundColor: '#ffffff' }}>
-        <h3 style={{ textAlign: 'center' }}>Our Specialties</h3>
-        <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '2rem' }}>
+      <section className="menu-section">
+        <h3>Our Specialties</h3>
+        <div className="menu-items">
           <div>
             <h4>Souvlaki Skewers</h4>
             <p>Grilled to perfection, served with pita and tzatziki.</p>
@@ -46,10 +45,11 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer style={{ padding: '2rem', textAlign: 'center', backgroundColor: '#e9ecef' }}>
+      <footer className="footer">
         <p>© 2024 Souvlaki. All rights reserved.</p>
         <p><a href="#">Contact Us</a> | <a href="#">Privacy Policy</a></p>
       </footer>
+    </>
     </>
   );
 }
