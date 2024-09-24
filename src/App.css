@@ -1,6 +1,6 @@
-/* Navbar */
+
 .navbar {
-  background-color: #e3f2fd;
+  background-color: lightblue;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -10,6 +10,8 @@
 .logo {
   font-family: 'Georgia, serif';
   font-size: 1.5rem;
+  width: 225px;
+  height: 90px;
 }
 
 .nav-links {
@@ -28,22 +30,24 @@
   color: #007bff;
 }
 
-/* Hero Section */
 .hero {
   padding: 4rem;
   text-align: center;
-  background-color: #f8f9fa;
-  background-image: url("/Users/jameskang/Desktop/Desktop - James’s MacBook Pro/VSC/BIT 4484/soulvaki/soulvakinewflavor/soulvaki/src/assets/logo.png");
+  background: rgba(0, 0, 0, 0.5) url(/Users/jameskang/Desktop/Desktop - James’s MacBook Pro/VSC/BIT 4484/soulvaki/soulvakinewflavor/soulvaki/src/assets/background.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 .hero h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .menu-btn {
@@ -59,11 +63,12 @@
   background-color: #0056b3;
 }
 
-/* Menu Section */
 .menu-section {
   padding: 4rem;
-  background-color: #ffffff;
+  background-color: white;
   text-align: center;
+  color: black;
+
 }
 
 .menu-section h3 {
@@ -79,11 +84,10 @@
   text-align: center;
 }
 
-/* Footer */
 .footer {
   padding: 2rem;
   text-align: center;
-  background-color: #e9ecef;
+  background-color: lightblue;
 }
 
 .footer p {

@@ -9,7 +9,7 @@ function App() {
      <>
       {/* Navbar */}
       <nav className="navbar">
-        <h1 className="logo">Souvlaki</h1>
+        <img src="/src/assets/logo.png" alt="" className='logo'/>
         <ul className="nav-links">
           <li><a href="#">Menu</a></li>
           <li><a href="#">Reviews</a></li>
